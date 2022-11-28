@@ -59,7 +59,7 @@
                             
                                 <li class="nav-item dropdown">
                                     
-                                        <a href="{{ url('posts/create' ) }}" class="dropdown-item-post">つぶやく</a>
+                                        <a href="{{ url('posts' ) }}" class="dropdown-item-post">つぶやく</a>
                                         <a href="{{  url('users')  }}" class="dropdown-item">ユーザー一覧</a>
                                         <a href="{{ route('logout') }}" class="dropdown-item"
                                         onclick="event.preventDefault();
