@@ -30,7 +30,7 @@ class PostsController extends Controller
     {
         $user = auth()->user();
 
-        return view('posts.create', [
+        return view('posts', [
             'user' => $user
         ]);
     }
