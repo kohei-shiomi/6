@@ -14,7 +14,7 @@ class PostsTableSeeder extends Seeder
     {
         //
         for ($i = 1; $i <= 3; $i++) {
-            Tweet::create([
+            Posts::create([
                 'user_id'    => $i,
                 'body'       => 'これはテスト投稿' .$i,
                 'created_at' => now(),
